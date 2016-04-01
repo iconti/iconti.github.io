@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <link href="css/style.css" rel="stylesheet" media="screen"/>
+  <link href="css/print.css" rel="stylesheet" media="print" />
   <title>Isabella Conti</title>
 </head>
 
+
 <body>
+  <div id="container">
   <header>
     <h1>Isabella Conti Americano J Magalhaes</h1>
     <address>
@@ -31,23 +35,23 @@
       <article>
         <h3><a href="http://miami.edu">University of Miami</a></h3>
         <p>Coral Gables, FL, USA</p>
-        <p><time datetime="2012-08">Aug 2012</time>-<time datetime="2016-05">May 2016</time></p>
+        <p class="date"><time datetime="2012-08">Aug 2012</time>-<time datetime="2016-05">May 2016</time></p>
         <p><abbr title="Bachelor of Science">B.S.</abbr> in Communications</p>
         <p>Double minor in Marketing and Psychology</p>
       </article>
       <article>
         <h3><a href="http://www.aur.edu">American University of Rome</a></h3>
         <p>Rome, Italy</p>
-        <p><time datetime="2015-05">Summer 2015</time></p>
+        <p class="date">Summer 2015</p>
         <p>International Marketing Course: Carpineto Vineyard Campaign</p>
       </article>
     </section>
     <section>
-      <h2 id="experience">Experience</h2>
+    <h2 id="experience">Experience</h2>
       <article>
         <h3>Office of Process Improvement</h3>
         <p>Communications and Graphic Design Intern - Miami, FL</p>
-        <p><time datetime="2015-11">September 2015</time>-<time datetime="2016-02-16">Current</time></p>
+        <p class="date"><time datetime="2015-11">September 2015</time>-Current</p>
         <ul>
           <li>Responsible for designing infographics with changes occurring in the University of Miami healthcare system</li>
           <li>Responsible for the brand development for the department</li>
@@ -56,7 +60,7 @@
       <article>
         <h3>Victoria's Secret PINK</h3>
         <p>Street Team Member, Miami, FL, USA</p>
-        <p><time datetime="2015-09">September 2015</time>-<time datetime="2016-02-16">Current</time></p>
+        <p class="date"><time datetime="2015-09">September 2015</time>-Current</p>
         <ul>
           <li>Help the University of Miami campus representatives with promotions and events</li>
           <li>Design internal communication materials</li>
@@ -66,7 +70,7 @@
       <article>
         <h3>Hult International Business School</h3>
         <p>Student Application Support, Miami, FL, USA</p>
-        <p><time datetime="2014-09">September 2014</time>-<time datetime="2015-05">May 2015</time></p>
+        <p class="date"><time datetime="2014-09">September 2014</time>-<time datetime="2015-05">May 2015</time></p>
         <ul>
           <li>Reached out to potential students to schedule interviews with recruiters</li>
           <li>Used best judgment to determine which students are the best fit for the program</li>
@@ -76,7 +80,7 @@
       <article>
         <h3>Farah Service</h3>
         <p>Alternative Marketing Solutions, São Paulo, Brazil<p>
-        <p><time datetime="2013-06">June 2013</time> and <time datetime="2014-06">June</time>/<time datetime="2014-07">July 2014</time>
+        <p class="date"><time datetime="2013-06">June 2013</time> and <time datetime="2014-06">June</time>/<time datetime="2014-07">July 2014</time>
         <ul>
           <li>Created simulations on Photoshop for client presentations</li>
           <li>Attended meetings with clients to get briefings and present ideas</li>
@@ -84,6 +88,7 @@
         </ul>
       </article>
     </section>
+    <div id="diplomas">
     <section>
       <h2 id="skills">Skills and Diplomas</h2>
       <ul>
@@ -95,7 +100,7 @@
         <li>Basic HTML coding</li>
       </ul>
     </section>
-    <section>
+    <section class="languages">
       <h2 id="languages">Languages</h2>
       <ul>
         <li>Portuguese</li>
@@ -103,6 +108,9 @@
         <li>Spanish</li>
       </ul>
     </section>
+  </div>
   </main>
+</div>
 </body>
+
 </html>

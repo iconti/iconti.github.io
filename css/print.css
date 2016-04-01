@@ -1,0 +1,52 @@
+*{
+  background: transparent; !important
+  color: black;
+  font-size: 12pt;
+  font-family: serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14pt;
+}
+
+h1{
+  font-size: 22pt;
+  margin: 0.05in 0;
+}
+
+h2{
+  font-size: 16pt;
+  margin: 0.05in 0;
+
+}
+
+h3, h4, h5, h6{
+  font-size: 14pt;
+  margin-top: 0.025in;
+  margin-bottom: 0.025in;
+}
+
+nav {
+  display: none;
+}
+
+p{
+  margin-top: 0.025in;
+  margin-bottom: 0.025in;
+}
+
+article{
+  position: relative;
+}
+
+.date{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+section{
+  margin: 0.1in 0;
+}
