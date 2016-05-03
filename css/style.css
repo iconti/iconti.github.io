@@ -1,16 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Nothing+You+Could+Do|Raleway);
 
 body{
   font-size: 16px;
-  font-family: Helvetica, sans-serif;
-}
-
-html{
-  width: 960px;
+  font-family: "Raleway", sans-serif;
+  color: #555
 }
 
 #container{
-    margin: 0 100px;
+    margin: 0px;
+    width: 960px;
+    position: absolute;
+}
+
+.logo{
+  width: 300px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+#col1{
+margin: 0px 50px;
+top: 50px;
+width: 300px;
+position: fixed;
+}
+
+#col2{
+  float: right;
+  width: 550px;
+  position: relative;
+  top: 30px;
+}
+
+#col2 .me{
+  float:left;
 }
 
 a{
@@ -19,15 +44,10 @@ a{
   font-style: bold;
 }
 
-nav,
-address{
-  text-align: center;
-}
-
 a:active,
 a:visited,
 a{
-  color: #222;
+  color: #555;
 }
 
 a:hover{
@@ -35,46 +55,33 @@ a:hover{
 }
 
 nav ul li{
-  display: inline;
-}
-
-nav ul li::before{
-  content: " |";
-  color: rgb(255, 98, 10);
+display: block;
+font-size: 14px;
 }
 
 h1{
-  font-family: "Shadows Into Light", "Helvetica", sans-serif;
-  color: rgb(255, 98, 10);;
-  text-align: center;
-  font-size: 50px;
-  margin: 1px;
+  display: none;
+  font-family: "Helvetica", sans-serif;
 }
 
 h2{
   font-family: "Montserrat", "Helvetica", sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   color: rgb(255, 98, 10);
+  margin-bottom: 0;
 }
 
 h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
+  margin: 0;
 }
 
 h3~p{
   margin-top: 1px;
 }
 
-p,
-ul li{
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #555;
-}
-
-article,
-#diplomas{
+article{
   position: relative;
 }
 
@@ -85,8 +92,57 @@ article,
   font-size: 14px;
 }
 
-.languages{
-  position: absolute;
-  bottom: 38px;
-  left: 605px;
+img{
+  width: 490px;
+  height: auto;
+  border: 0.1px solid #555;
+  margin-bottom: 2px;
+}
+
+.me{
+  width: 300px;
+  height: auto;
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.signature{
+  font-family: "Nothing You Could Do", cursive;
+  font-size:20px;
+}
+
+@media (max-width:768px){
+
+  body,a{
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  #container{
+    max-width: 768px;
+    overflow: scroll;
+  }
+
+  #col2{
+    float: none;
+    margin: 50px 5px;
+  }
+
+  #col1{
+    position: relative;
+    margin: 0;
+  }
+
+  #col2 .me{
+    float: none;
+    position: relative;
+  }
+
+  .logo{
+    width: 300px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
 }
