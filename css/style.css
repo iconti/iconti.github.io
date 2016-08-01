@@ -93,9 +93,9 @@ article{
 }
 
 img{
-  width: 490px;
+  width: 560px;
   height: auto;
-  border: 0.1px solid #555;
+  /*--border: 0.1px solid #555;--*/ 
   margin-bottom: 2px;
 }
 
